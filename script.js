@@ -20,3 +20,11 @@ olTarefas.addEventListener("click", function(event){
     event.target.style.backgroundColor ="rgb(128,128,128)"
 })
 
+olTarefas.addEventListener("dblclick", function(event){
+   
+    let olChildren = olTarefas.children
+    for(i = 0; i < olChildren.length; i += 1){
+        olChildren[i]
+    }
+    event.target.classList.toggle("completed")
+})
